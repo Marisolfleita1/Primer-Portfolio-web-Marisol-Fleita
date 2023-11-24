@@ -34,7 +34,7 @@ header li img:hover{
 
 
 nav{
-    background-color: rgb(152, 220, 185);
+    background-color: rgb(239, 220, 248);
     margin-top: 45px;
     height: 30px;
     width: 100%;
@@ -52,12 +52,12 @@ nav{
     padding-top: 5px;
     width: 170px;
     height: 100%;
-    background-color: rgb(152, 220, 185)
+    background-color: rgb(239, 220, 248);
 }
 .menu-horizontal>li:hover{
     border-right: 2px solid rgb(1, 1, 1);
     border-left: 2px solid rgb(1, 1, 1);
-    background-color: rgb(127, 255, 185);
+    background-color: rgba(207, 141, 211, 0.895);
 }
 .menu-horizontal li a{
     text-decoration: none;
