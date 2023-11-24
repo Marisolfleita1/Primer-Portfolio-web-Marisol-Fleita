@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+header{
+    margin: 0px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+}
+header .imgLogo{
+    position: absolute;
+    width: 150px;
+    object-fit: cover;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+}
+header li{
+    width: 40px;
+}
+header li img{
+    width: 25px;
+   
+}
+header li img:hover{
+    transform: scale(1.4);/* Para mover logos redes*/
+}
+
+
+
+nav{
+    background-color: rgb(152, 220, 185);
+    margin-top: 80px;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+.menu-horizontal{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+}
+.menu-horizontal li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 170px;
+    height: 100%;
+    background-color: rgb(152, 220, 185)
+}
+.menu-horizontal>li:hover{
+    border-right: 2px solid rgb(1, 1, 1);
+    border-left: 2px solid rgb(1, 1, 1);
+}
+.menu-horizontal li:hover{
+    background-color: rgb(127, 255, 185);
+}
+.menu-horizontal li a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+.menu-vertical {
+    height: 50px;
+   visibility: hidden;
+    width: 166px;
+    padding-left: 0px;
+    list-style: none;
+}
+.menu-vertical li{
+    width: 100%;
+    margin: 0px;
+}
+.menu-vertical li a{
+    text-align: left;
+    margin: 0px;
+}
+.menu-horizontal li:hover .menu-vertical{
+    visibility: visible;
+}
+
+
+
+.ContainerPrincipal{
+    width: 100%;
+    padding-top: 120px;
+}
+#Presentación {
+ 
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(9,1fr);
+    width: 100%;
+    height: 460px;
+    background-color: rgba(152, 241, 233, 0.918)
+}
+
+#Presentación img{
+   
+    width: 300px;
+    height: 200px;
+}
+.vaca{
+    grid-row: 2/5;
+    grid-column: 2/4;
+}
+.cerdo{
+    grid-row: 2/5;
+    grid-column: 5/7;
+}
+.texto{
+    width: 500px;
+    background-color: rgb(222, 182, 182);
+    grid-row: 3/8;
+    grid-column: 3/6;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.delfines{
+    grid-row: 6/9;
+    grid-column: 2/6;
+}
+.panda{
+    grid-row: 6/9;
+    grid-column: 5/6;
+}
+
+.uno{
+    background-color: rgb(212, 43, 43);
+    height: 400px;
+}
+.dos{
+    background-color: black;
+    height: 200px;
+}
+
