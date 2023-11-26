@@ -217,18 +217,18 @@ body.dark .ContainerPrincipal{
 
 #Sobremi p{
     grid-column: 3/6;
-    grid-row: 5/8;
+    grid-row: 4/8;
     text-align: justify;
  }
 
-@media (max-width:837px){
+@media (max-width:905px){
     #Sobremi h2{
         grid-column: 3/6;
         grid-row: 3/4;
     }
     #Sobremi p{
         grid-column: 2/7;
-        grid-row: 5/8;
+        grid-row: 4/8;
      }
 }
 
@@ -247,7 +247,7 @@ body.dark .ContainerPrincipal{
 
 #Formación h2{
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     align-self: center;
     text-decoration: overline;
 }
@@ -258,14 +258,45 @@ body.dark .ContainerPrincipal{
     width: 95%;
     list-style: none;
     align-self: center;
-    height: 60%;
+    /* height: 50%; */
+}
+
+@media (max-width:399px){
+    #Formación h2{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
 }
 
 .lista-formación li{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
+
+@media(max-width:630px){
+    .cajaenproceso{
+        display: flex;
+        justify-content: end;
+        height: 40px;
+        width: 175px;
+    }
+    .enproceso{
+
+    }
+}
+
+/* .enproceso{
+    background-color: rgb(179, 153, 217);
+    border: 1px solid ;
+    text-align: center;
+} */
+
+.enproceso{
+    background-color: rgb(179, 153, 217);
+    border: 1px solid ;
+}
+
 
 .lista-formación li button {
     background-color: rgb(174, 125, 189);
@@ -280,6 +311,7 @@ body.dark .ContainerPrincipal{
     text-decoration: none;
     color: black;
 }
+
 .Idiomas{
     display: flex;
     flex-direction: column;
@@ -299,12 +331,8 @@ h3{
     justify-content:space-between ;
 }
 
-.enproceso{
-    background-color: rgb(179, 153, 217);
-    border: 1px solid ;
-    width: 19%;
-    text-align: center;
-}
+
+
 
 
 
