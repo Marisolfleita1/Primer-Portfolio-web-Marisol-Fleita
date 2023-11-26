@@ -125,35 +125,72 @@ body.dark .ContainerPrincipal{
     object-fit: cover;
 }
 
-.bienvenido{
+.cajita-bienvenido{
     background-color: rgb(222, 182, 182);
     grid-row: 6/8;
     grid-column: 3/23;
-    font-size: x-large;
-    text-align: center;
 }
 
-.vaca{
+.bienvenido{
+    font-size: x-large;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.fotoperfil{
     grid-row: 10/19;
     grid-column: 6/18;
 }
-.texto{
-    /* width: 500px; */
+.minombre{
+    font-size: calc(1.375rem + 1.5vw);
     background-color: rgb(222, 182, 182);
-    grid-row: 18/20;
-    grid-column: 9/19;
+    grid-row: 17/20;
+    grid-column: 9/22;
     text-align: center;
     padding-top: 2%;
-    padding-bottom: 7%;
-    /* padding-left: 65px;
-    padding-right: 10px; */
-    font-size: x-large;
+    padding-bottom: 9%;
 }
 
-.texto:hover{
+.minombre:hover{
     transition-duration: 4s;
     background-color: rgb(226, 211, 248);
 }
+
+@media (max-width: 1070px){
+    .minombre{
+        grid-row: 9/13;
+        grid-column: 4/22;
+    }
+    .fotoperfil{
+        grid-row: 13/25;
+        grid-column: 10/22;
+    }
+}
+
+@media (max-width: 648px){
+    .minombre{
+        font-size:x-large ;
+    }
+    .fotoperfil{
+        grid-row: 13/25;
+        grid-column: 9/22;
+    }
+    .bienvenido{
+        font-size: large;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 487px){
+    .minombre{
+        grid-row: 8/13;
+    }
+    .fotoperfil{
+        grid-column: 7/22;
+    }
+}
+
+
 
 
 
