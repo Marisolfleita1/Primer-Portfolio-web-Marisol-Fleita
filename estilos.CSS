@@ -198,20 +198,6 @@ body.dark .ContainerPrincipal{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Sobremi  {
     display: grid;
     grid-template-columns: repeat(7,1fr);
@@ -245,5 +231,102 @@ body.dark .ContainerPrincipal{
         grid-row: 5/8;
      }
 }
+
+
+
+
+
+
+#Formación {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 511px;
+    background-color: rgba(214, 32, 32, 0.918)
+}
+
+#Formación h2{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    align-self: center;
+    text-decoration: overline;
+}
+
+.lista-formación{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    list-style: none;
+    align-self: center;
+    height: 60%;
+}
+
+.lista-formación li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.lista-formación li button {
+    background-color: rgb(174, 125, 189);
+}
+
+.lista-formación li button:hover{
+    background-color: bisque;
+    transform: scale(1.05);
+}
+
+.lista-formación li button a{
+    text-decoration: none;
+    color: black;
+}
+.Idiomas{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+.lista-idiomas{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-idiomas li{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.enproceso{
+    background-color: rgb(179, 153, 217);
+    border: 1px solid ;
+    width: 19%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
