@@ -441,6 +441,34 @@ h3{
 }
 
 
+/* -------------------------------------------------footer-------------------------------------------------------- */
+
+
+.flecha-inicio{
+    width: 30px;
+}
+
+.linkinicio{
+    position:fixed;
+    bottom: 28px;
+    left: 5px;
+}
+
+footer{
+    background-color: rgba(207, 141, 211, 0.895);
+    height: 26px;
+}
+footer p{
+    text-align: center;
+    padding-top: 4px;
+    font-size: small;
+}
+
+footer img{
+    width: 13px;
+}
+
+
 
 
 
