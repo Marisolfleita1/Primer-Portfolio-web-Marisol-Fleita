@@ -187,7 +187,7 @@ body.dark .ContainerPrincipal{
     
 }
 
-@media (max-width: 400px){
+@media (max-width: 401px){
     .minombre{
         grid-row: 9/13;
     }
