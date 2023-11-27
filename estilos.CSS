@@ -368,7 +368,7 @@ h3{
       
     }
     #Proyectos{
-        height: 660px;
+        height: 770px;
     }
     .proyecto-dos{
        margin-top: 7px;
@@ -427,7 +427,18 @@ h3{
     background-color: aquamarine;
     border: 1px solid rgb(2, 2, 2);
 }
-
+.enlacesproyecto{
+    align-self: center;
+    display: flex;
+    width: 50px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* background-color: antiquewhite; */
+}
+.enlacesproyecto img{
+    width: 30px;
+    
+}
 
 
 
