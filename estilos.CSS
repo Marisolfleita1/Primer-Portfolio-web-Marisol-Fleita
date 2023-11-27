@@ -157,7 +157,7 @@ body.dark .ContainerPrincipal{
 
 @media (max-width: 1070px){
     .minombre{
-        grid-row: 9/13;
+        grid-row: 9/12;
         grid-column: 4/22;
     }
     .fotoperfil{
@@ -168,7 +168,7 @@ body.dark .ContainerPrincipal{
 
 @media (max-width: 648px){
     .minombre{
-        font-size:x-large ;
+        grid-row: 9/12;
     }
     .fotoperfil{
         grid-row: 13/25;
@@ -181,13 +181,18 @@ body.dark .ContainerPrincipal{
 }
 
 @media (max-width: 487px){
-    .minombre{
-        grid-row: 8/13;
-    }
     .fotoperfil{
         grid-column: 7/22;
     }
+    
 }
+
+@media (max-width: 400px){
+    .minombre{
+        grid-row: 9/13;
+    }
+}
+
 
 
 
