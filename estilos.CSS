@@ -11,7 +11,7 @@ body {
 }
 
 body.dark{
-    background-color: black;
+    background-color: rgb(12, 12, 12);
 }
 
 
@@ -112,10 +112,6 @@ nav{
     height: 511px;
 }
 
-body.dark .ContainerPrincipal{
-    transition-duration: 1s;
-    background-color: rgb(90, 85, 85);
-}
 
 #Presentación img{
    
@@ -130,6 +126,15 @@ body.dark .ContainerPrincipal{
     grid-column: 3/23;
 }
 
+body.dark .cajita-bienvenido{
+    background-color: rgb(189, 165, 211);
+}
+
+body.dark .minombre{
+    background-color: rgb(189, 165, 211);
+}
+
+
 .bienvenido{
     font-size: x-large;
     text-align: center;
@@ -139,6 +144,7 @@ body.dark .ContainerPrincipal{
 .fotoperfil{
     grid-row: 10/19;
     grid-column: 6/18;
+
 }
 .minombre{
     font-size: calc(1.375rem + 1.5vw);
@@ -208,7 +214,11 @@ body.dark .ContainerPrincipal{
     grid-template-rows: repeat(8,1fr);
     width: 100%;
     height: 511px;
-    background-color: rgba(252, 252, 252, 0.918)
+    background-color: bisque;
+}
+
+body.dark #Sobremi{
+    background-color: black;
 }
 
 #Sobremi h2{
@@ -219,11 +229,21 @@ body.dark .ContainerPrincipal{
     text-decoration: overline;
 }
 
+body.dark #Sobremi h2{
+    background-color: rgb(128, 74, 117);
+    color: aliceblue;
+    text-decoration: none;
+}
+
 #Sobremi p{
     grid-column: 3/6;
     grid-row: 4/8;
     text-align: justify;
  }
+
+body.dark #Sobremi p{
+    color: aliceblue;
+}
 
 @media (max-width:905px){
     #Sobremi h2{
@@ -257,6 +277,20 @@ body.dark .ContainerPrincipal{
     padding-bottom: 30px;
     align-self: center;
     text-decoration: overline;
+}
+
+body.dark #Formación {
+    background-color: rgb(12, 12, 12);
+}
+
+body.dark #Formación h2 {
+    background-color: rgb(39, 36, 38);
+    color: antiquewhite;
+    text-align: center;
+}
+
+body.dark .lista-formación{
+    color: antiquewhite;
 }
 
 .lista-formación{
@@ -351,11 +385,22 @@ h3{
     height: 511px;
     background-color: bisque;
 }
+body.dark #Proyectos{
+    background-color: black;
+}
+
+body.dark #Proyectos h2{
+    background-color: rgb(128, 74, 117);
+}
 
 #Proyectos>h2 {
     text-align: center;
     /* align-self: center; */
     text-decoration: overline;
+}
+
+body.dark #Proyectos>h2{
+    text-decoration: none;
 }
 
 .proyectos{
@@ -397,11 +442,19 @@ h3{
     transform: scale(1.05);
 } */
 
+body.dark .proyecto-uno{
+    background-color: rgb(164, 153, 173);
+}
+
 .proyecto-dos{
     display: flex;
     flex-direction: column;
     background-color: rgb(118, 215, 215);
     border: 1px solid rgb(2, 2, 2);
+}
+
+body.dark .proyecto-dos{
+    background-color: rgb(130, 173, 168);
 }
 
 /* .proyecto-dos:hover{
